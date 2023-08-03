@@ -29,6 +29,7 @@ const Hero = () => {
 						src='/hero.png'
 						alt='hero'
 						fill
+						sizes='large'
 						className='object-contain'
 					/>
 
