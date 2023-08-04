@@ -1,12 +1,9 @@
 'use client'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { SearchManufacturer } from '.'
-import { manufacturers } from '../constants/index'
 
 const SearchBar = () => {
 	const [manufacturer, setManufacturer] = useState('')
-
-	console.log(`manufacturer`, manufacturer)
 
 	const handleSearch = () => {}
 
